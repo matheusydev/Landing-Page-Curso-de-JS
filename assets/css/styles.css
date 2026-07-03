@@ -152,3 +152,16 @@
 .form-group ::placeholder {
   color: var(--light-gray-color);
 }
+
+.footer a {
+  color: var(--primary-color);
+}
+
+.heart {
+  color: var(--secondary-color);
+}
+
+.footer p {
+  margin: 0;
+  padding: 3rem;
+}
