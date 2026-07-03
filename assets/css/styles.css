@@ -153,6 +153,11 @@
   color: var(--light-gray-color);
 }
 
+.footer {
+  text-align: center;
+  font-size: 1.6rem;
+}
+
 .footer a {
   color: var(--primary-color);
 }
@@ -164,4 +169,24 @@
 .footer p {
   margin: 0;
   padding: 3rem;
+}
+
+@media (max-width: 800px) {
+  .intro-content, .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%; 
+  }
+
+  .gallery-img img {
+    width: 100%;
+  }
+
+  .grid-one-content {
+    display: block;
+  }
 }
